@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Install dependencies
-      run: sudo make
+      run: sudo make -k
 
     - name: Run check
       run: make check
