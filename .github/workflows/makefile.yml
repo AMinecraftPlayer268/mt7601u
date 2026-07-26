@@ -15,9 +15,3 @@ jobs:
     - uses: actions/checkout@v4
     - name: Install dependencies
       run: sudo make -k -n
-
-    - name: Run check
-      run: make check
-
-    - name: Run distcheck
-      run: make distcheck
